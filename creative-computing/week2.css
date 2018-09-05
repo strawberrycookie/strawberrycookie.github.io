@@ -1,0 +1,26 @@
+
+h1{
+  font-size: 20px;
+  color: rgb(255,0,0);
+}
+li{
+  font-size: 10px;
+  font-style: italic;
+  font-weight: bold;
+  border: 5px dotted red;
+}
+a{
+  font-size: 30px;
+  font-style: italic:
+  font-weight: bold;
+  color: red;
+}
+
+#first{
+  border: 5px dotted green;
+  line-height: 10px;
+}
+.highlight{
+  background-color: yellow;
+  line-height: 15px;
+}
