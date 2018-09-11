@@ -1,0 +1,64 @@
+#first{
+  border: 5px dotted green;
+  line-height: 10px;
+}
+.red{
+  font-size: 30px;
+  color: red;
+}
+.blue{
+  font-size: 30px;
+  color: blue;
+}
+.pop{
+  font-size: 30px;
+  color: brown;
+}
+.grey{
+  font-size: 30px;
+  color: grey;
+}
+p{
+  font-size: 20px;
+  color: Black;
+}
+.bred{
+  font-size: 30px;
+  color: #C70039;
+}
+.pink{
+  font-size: 30px;
+  color: #F187F3;
+}
+.normal{
+  font-size: 30px;
+  color: #6377E7;
+}
+.aqua{
+  font-size: 30px;
+  color: #3FF5D1;
+}
+.lava{
+  font-size: 30px;
+  color: #CA0D0D;
+}
+.thud{
+  font-size: 30px;
+  color: #FDC82E;
+}
+.purple{
+  font-size: 30px;
+  color: #CB02F8
+}
+.teal{
+  font-size: 30px;
+  color: teal;
+}
+.yellow{
+  font-size: 30px;
+  color: yellow;
+}
+.orange{
+  font-size: 30px;
+  color: orange;
+}
