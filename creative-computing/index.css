@@ -1,15 +1,15 @@
 body {
     font-family: "Helvetica", sans-serif;
+    margin-left: 300px;
 }
 a {
   font-size: 20px;
-  color: #FF4136
+  color: #FF4136;
 }
 li {
-  font-size: 30px;
-  color: blue
+  font-size: 22px;
 }
 
 h4 {
-  font-size: 35px
+  font-size: 27px
 }
