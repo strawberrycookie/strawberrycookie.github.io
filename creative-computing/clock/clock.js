@@ -41,6 +41,13 @@ function updateTime(){
     s5.style.borderColor = "violet";
   }
 
+  if(now.getSeconds()%2 !=1){
+    s6.style.borderColor = "#170B6C";
+
+  }else{
+    s6.style.borderColor = "#02F4F0";
+  }
+
   if(now.getSeconds()%10 ==0){
     s4.style.borderColor = "pink";
 
@@ -56,6 +63,7 @@ function updateTime(){
 
   s4.style.transform = "rotate(" + now.getSeconds() * 36 + "deg)"
 
+  s6.style.transform = "rotate(" + now.getMinutes() * 30 + "deg)"
   }
 
 setInterval(updateTime, 1000)
