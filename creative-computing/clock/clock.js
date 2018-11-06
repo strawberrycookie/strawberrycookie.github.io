@@ -41,7 +41,7 @@ function updateTime(){
     s5.style.borderColor = "violet";
   }
 
-  if(now.getSeconds()%2 !=1){
+  if(now.getSeconds()%30 !=1){
     s6.style.borderColor = "#170B6C";
 
   }else{
