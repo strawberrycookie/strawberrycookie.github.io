@@ -1,0 +1,74 @@
+#box {
+  position: absolute;
+  animation: infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    background-color: #BAFFF6;
+}
+
+#letter{
+   width:500px;
+   height:500px;
+   margin-top: 60px;
+}
+
+#follower {
+  width:100px;
+  height:100px;
+}
+
+#button1 {
+    border: none;
+    color: black;
+    padding: 80px 150px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FFFF74;
+    font-size: 60px;
+}
+
+#button2 {
+    border: none;
+    color: black;
+    padding: 80px 150px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    font-size: 60px;
+}
+
+#button3 {
+    border: none;
+    color: black;
+    padding: 80px 150px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #E993F9;
+    font-size: 60px;
+}
+
+#button4 {
+    border: none;
+    color: black;
+    padding: 80px 150px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FF6D46;
+    font-size: 60px;
+}
+
+
+.button {
+    align-items:center;
+    margin-top: 700px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    position: absolute;
+}
