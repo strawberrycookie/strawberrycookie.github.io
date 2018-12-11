@@ -13,11 +13,18 @@ body{
     height:100vh;
     background-color: #BAFFF6;
 }
-
+#rule{
+  font-family: "Helvetica",sans-serif;
+  font-size: 30px;
+  color: #F675DB;
+  margin-left: 200px;
+  margin-right: 200px;
+}
 #letter{
    width:500px;
    height:500px;
-   margin-top: 60px;
+   margin-top: 80px;
+   position: absolute;
 }
 
 #follower {
@@ -28,7 +35,7 @@ body{
 #button1 {
     border: none;
     color: black;
-    padding: 80px 150px;
+    padding: 60px 120px;
     text-align: center;
     cursor: pointer;
     background-color: #FFFF74;
@@ -38,7 +45,7 @@ body{
 #button2 {
     border: none;
     color: black;
-    padding: 80px 150px;
+    padding: 60px 120px;
     text-align: center;
     cursor: pointer;
     background-color: white;
@@ -48,7 +55,7 @@ body{
 #button3 {
     border: none;
     color: black;
-    padding: 80px 150px;
+    padding: 60px 120px;
     text-align: center;
     cursor: pointer;
     background-color: #E993F9;
@@ -58,7 +65,7 @@ body{
 #button4 {
     border: none;
     color: black;
-    padding: 80px 150px;
+    padding: 60px 120px;
     text-align: center;
     cursor: pointer;
     background-color: #FF6D46;
