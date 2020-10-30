@@ -1,0 +1,579 @@
+@font-face{
+  font-family: "GT-Cinetype-Light-Trial";
+  src: url("../fonts/GT-Cinetype-Light-Trial.otf") format('opentype');
+}
+
+@font-face{
+  font-family: "GT-Cinetype-Bold-Trial";
+  src: url("../fonts/GT-Cinetype-Bold-Trial.otf") format('opentype');
+}
+
+@font-face{
+  font-family: "GT-Cinetype-Light-Italic-Trial";
+  src: url("../fonts/GT-Cinetype-Light-Italic-Trial.otf") format('opentype');
+}
+body{
+  background-color: #070011;
+}
+
+#twisty{
+  background-color: white;
+}
+
+#solo{
+  font-size: 150%;
+  line-height: 130%;
+  margin-left: 26%;
+  margin-right: 30%;
+  margin-top: 16%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #CF9900;
+}
+
+#eubin{
+  position:absolute;
+  font-size: 150%;
+  letter-spacing: 100%;
+  margin-left: 26%;
+  margin-right: 30%;
+  margin-top: 5%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #999999;
+  display: none;
+  background-color: #070011;
+  text-decoration: none;
+}
+
+#eubin:hover{
+  color: #650404;
+}
+
+#duo{
+  font-size: 150%;
+  line-height: 130%;
+  margin-left: 26%;
+  margin-right: 27%;
+  margin-top: 16%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #CF9900;
+}
+
+#timothy{
+  position:absolute;
+  font-size: 150%;
+  letter-spacing: 100%;
+  margin-left: 26%;
+  margin-right: 30%;
+  margin-top: 5%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #999999;
+  background-color: #070011;
+  opacity: 20%;
+  text-decoration: none;
+}
+
+#nathan{
+  position:absolute;
+  font-size: 150%;
+  letter-spacing: 100%;
+  margin-left: 73%;
+  margin-right: 10%;
+  margin-top: 9%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #999999;
+  display: none;
+  background-color: #070011;
+  text-decoration: none;
+}
+
+#nathan:hover{
+  background-color: #FFFFFF;
+  color: #6F9C80;
+}
+
+#calen{
+  position:absolute;
+  font-size: 420%;
+  line-height: 130%;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 20% !important;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #CF9900;
+  text-decoration: none;
+}
+
+#cindy{
+  align-items: left;
+  font-size: 100%;
+  line-height: 130%;
+  margin-left: 26%;
+  margin-right: 30%;
+  margin-top: 16%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #CF9900;
+  opacity: 30%;
+  text-decoration: none;
+}
+
+#klee:hover{
+  color: #3B0000;
+  opacity: 100%;
+}
+
+#paimon{
+  font-size: 150%;
+  line-height: 130%;
+  margin-left: 26%;
+  margin-right: 33%;
+  margin-top: 16%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #CF9900;
+}
+
+#klee{
+  align-items: left;
+  font-size: 160%;
+  line-height: 140%;
+  margin-left: 26%;
+  margin-right: 28%;
+  margin-top: 16%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #999999;
+  display: none;
+  text-decoration: none;
+}
+
+#calen:hover{
+  color: #AD0000;
+}
+
+#diluc{
+   position:absolute;
+   font-size: 200%;
+   line-height: 130%;
+   margin-left: 3%;
+   margin-right: 16%;
+   margin-top: 3%;
+   font-family: "GT-Cinetype-Bold-Trial";
+   color: #CF9900;
+   text-decoration: none;
+ }
+
+#words{
+  position:absolute;
+  font-size: 140%   ;
+  line-height: 130%;
+  margin-left: 10%;
+  margin-right: 16%;
+  margin-top: 10%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#fonts{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 20%;
+  margin-right: 16%;
+  margin-top: 13%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#images{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 2%;
+  margin-right: 16%;
+  margin-top: 30%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#sound{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 13%;
+  margin-right: 16%;
+  margin-top: 28%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#expectation{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 70%;
+  margin-right: 42%;
+  margin-top: 37%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#twist{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 72%;
+  margin-top: 11%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#colors{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 5%;
+  margin-right: 16%;
+  margin-top: 21%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#exposure{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 52%;
+  margin-top: 16%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#jumpscare{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 34%;
+  margin-top: 17%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#silence{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 57%;
+  margin-top: 21%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#humanoid{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 70%;
+  margin-top: 21%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#phobia{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 81%;
+  margin-top: 17%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#repetition{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 85%;
+  margin-top: 29%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#background{
+  position:absolute;
+  font-size: 140%;
+  line-height: 130%;
+  margin-left: 22%;
+  margin-top: 25%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: #999999;
+  text-decoration: none;
+}
+
+#elements{
+  position:absolute;
+  font-size: 160%;
+  line-height: 130%;
+  margin-left: 1%;
+  margin-top: 23%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #CF9900;
+  text-decoration: none;
+}
+
+#strategies{
+  position:absolute;
+  font-size: 160%;
+  line-height: 130%;
+  margin-left: 91%;
+  margin-top: 23%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #CF9900;
+  text-decoration: none;
+}
+
+#goback{
+  position:absolute;
+  font-size: 120%;
+  line-height: 2%;
+  margin-left: 0%;
+  margin-top: 0.5%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: #CF9900;
+}
+
+h2{
+  position:absolute;
+  font-size: 220%;
+  line-height: 120%;
+  margin-left: 34%;
+  margin-right: 16%;
+  margin-top: 5%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: white;
+  text-decoration: none;
+}
+
+#twister{
+  position:absolute;
+  font-size: 220%;
+  line-height: 120%;
+  margin-left: 34%;
+  margin-right: 16%;
+  margin-top: 5%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: black;
+  text-decoration: none;
+}
+
+#boo{
+  position:absolute;
+  font-size: 700%;
+  line-height: 120%;
+  margin-left: 24%;
+  margin-right: 16%;
+  margin-top: 5%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: white;
+  text-decoration: none;
+}
+
+p{
+  position:absolute;
+  font-size: 140%;
+  line-height: 150%;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-top: 9%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: white;
+  text-decoration: none;
+}
+
+#twisttwist{
+  position:absolute;
+  font-size: 140%;
+  line-height: 150%;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-top: 9%;
+  font-family: "GT-Cinetype-Bold-Trial";
+  color: black;
+  text-decoration: none;
+}
+
+#hey{
+  position:absolute;
+  font-size: 70%;
+  line-height: 150%;
+  margin-left: 14%;
+  margin-right: 34%;
+  margin-top: 34%;
+  opacity: 50%;
+  font-family: "GT-Cinetype-Light-Italic-Trial";
+  color: white;
+  text-decoration: none;
+}
+
+#hi{
+  position:absolute;
+  font-size: 70%;
+  line-height: 150%;
+  margin-left: 45%;
+  margin-right: 34%;
+  margin-top: 31%;
+  opacity: 50%;
+  font-family: "GT-Cinetype-Light-Italic-Trial";
+  color: white;
+  text-decoration: none;
+}
+
+
+audio{
+  position:absolute;
+  font-size: 140%;
+  line-height: 150%;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-top: 9%;
+
+}
+
+#dent{
+  position:absolute;
+  font-size: 140%;
+  line-height: 150%;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-top: 14%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: white;
+  text-decoration: none;
+}
+
+#dent2{
+  position:absolute;
+  font-size: 140%;
+  line-height: 150%;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-top: 18%;
+  font-family: "GT-Cinetype-Light-Trial";
+  color: white;
+  text-decoration: none;
+}
+
+
+h3{
+  position:absolute;
+  font-size: 70%;
+  line-height: 150%;
+  margin-left: 15%;
+  margin-right: 34%;
+  margin-top: 34%;
+  opacity: 50%;
+  font-family: "GT-Cinetype-Light-Italic-Trial";
+  color: white;
+  text-decoration: none;
+}
+
+#twisst{
+  position:absolute;
+  font-size: 70%;
+  line-height: 150%;
+  margin-left: 73.7%;
+  margin-right: 14%;
+  margin-top: 30.5%;
+  opacity: 50%;
+  font-family: "GT-Cinetype-Light-Italic-Trial";
+  color: black;
+  text-decoration: none;
+}
+
+img{
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 11%;
+  width: 18%;
+  height: 49%;
+}
+
+#twwist{
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 70%;
+  width: 14%;
+  height: 44%;
+}
+
+#texts{
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 38%;
+  width: 24%;
+  height: 3%;
+}
+
+#hate{
+  position: absolute;
+  margin-top: 9%;
+  margin-left: 72%;
+  width: 18%;
+  height: 49%;
+}
+
+#opposite{
+  position: absolute;
+  margin-top: 22%;
+  margin-left: 40%;
+  width: 18%;
+  height: 18%;
+}
+
+#words:hover{
+  color: #A90000;
+}
+
+#fonts:hover{
+  color: #A90000;
+}
+#sound:hover{
+  color: #A90000;
+}
+#images:hover{
+  color: #A90000;
+}
+#twist:hover{
+  color: #A90000;
+}
+#expectation:hover{
+  color: #A90000;
+}
+#colors:hover{
+  color: #A90000;
+}
+#exposure:hover{
+  color: #A90000;
+}
+#Silence:hover{
+  color: #A90000;
+}
+#jumpscare:hover{
+  color: #A90000;
+}
+#repetition:hover{
+  color: #A90000;
+}
+#background:hover{
+  color: #A90000;
+}
